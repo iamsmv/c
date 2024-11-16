@@ -1,0 +1,89 @@
+Here’s a progression from brute force to optimized approaches for reversing a string in C++:
+
+---
+
+### **1. Brute Force Approach**
+This approach creates a new string by iterating from the end of the original string.
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+string reverseStringBruteForce(const string& str) {
+    string reversed = "";
+    for (int i = str.length() - 1; i >= 0; i--) {
+        reversed += str[i]; // Append characters in reverse order
+    }
+    return reversed;
+}
+
+int main() {
+    string str = "Hello, World!";
+    cout << "Reversed (Brute Force): " << reverseStringBruteForce(str) << endl;
+    return 0;
+}
+```
+**Time Complexity**: \(O(n)\)  
+**Space Complexity**: \(O(n)\) (due to the new string).
+
+---
+
+### **2. Two-Pointer Approach (In-Place Reversal)**  
+This is more memory-efficient as it reverses the string in place using two pointers.
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+void reverseStringTwoPointer(string& str) {
+    int left = 0, right = str.length() - 1;
+    while (left < right) {
+        swap(str[left], str[right]); // Swap characters
+        left++;
+        right--;
+    }
+}
+
+int main() {
+    string str = "Hello, World!";
+    reverseStringTwoPointer(str);
+    cout << "Reversed (Two-Pointer): " << str << endl;
+    return 0;
+}
+```
+**Time Complexity**: \(O(n)\)  
+**Space Complexity**: \(O(1)\)
+
+---
+
+### **3. Using STL (`std::reverse`)**
+The most optimized and concise approach leverages the STL `std::reverse`.
+
+```cpp
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    string str = "Hello, World!";
+    reverse(str.begin(), str.end());
+    cout << "Reversed (STL): " << str << endl;
+    return 0;
+}
+```
+**Time Complexity**: \(O(n)\)  
+**Space Complexity**: \(O(1)\)
+
+---
+
+### **Comparison**
+| Approach              | Time Complexity | Space Complexity | Notes                          |
+|-----------------------|-----------------|------------------|--------------------------------|
+| Brute Force           | \(O(n)\)        | \(O(n)\)         | Creates a new string.          |
+| Two-Pointer           | \(O(n)\)        | \(O(1)\)         | In-place reversal.             |
+| STL (`std::reverse`)  | \(O(n)\)        | \(O(1)\)         | Optimized and concise.         |
+
+The **Two-Pointer** and **STL** approaches are the best for practical use.
