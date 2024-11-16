@@ -1,0 +1,47 @@
+C program to swap two Strings
+C Program to Sort an array of names or strings
+C Program to Check if a Given String is Palindrome
+C/C++ Program for Return maximum occurring character in the input string
+C/C++ Program for Remove all duplicates from the input string.
+C/C++ Program for Print all the duplicates in the input string.
+C/C++ Program for Remove characters from the first string which are present in the second string
+C/C++ Program for A Program to check if strings are rotations of each other or not
+C/C++ Program for Print reverse of a string using recursion
+C/C++ Program for Write a C program to print all permutations of a given string
+C/C++ Program for Divide a string in N equal parts
+C/C++ Program for Given a string, find its first non-repeating character
+C/C++ Program for Print list items containing all characters of a given word
+C/C++ Program for Reverse words in a given string
+C/C++ Program for Run Length Encoding
+C/C++ Program for Find the smallest window in a string containing all characters of another string
+C/C++ Program for Searching for Patterns | Set 1 (Naive Pattern Searching)
+C/C++ Program for Searching for Patterns | Set 2 (KMP Algorithm)
+C/C++ Program for Searching for Patterns | Set 3 (Rabin-Karp Algorithm)
+C/C++ Program for Searching for Patterns | Set 4 (A Naive Pattern Searching Question)
+C/C++ Program for Length of the longest substring without repeating characters
+C/C++ Program for Print all permutations with repetition of characters
+C/C++ Program for Print all interleavings of given two strings
+C/C++ Program for Check whether a given string is an interleaving of two other given strings
+C/C++ Program for Check whether two strings are anagram of each other
+C/C++ Program for Searching for Patterns | Set 5 (Finite Automata)
+C/C++ Program for Pattern Searching | Set 6 (Efficient Construction of Finite Automata)
+C/C++ Program for Pattern Searching | Set 7 (Boyer Moore Algorithm – Bad Character Heuristic)
+C/C++ Program for Dynamic Programming | Set 17 (Palindrome Partitioning)
+C/C++ Program for Lexicographic rank of a string
+C/C++ Program for Print all permutations in sorted (lexicographic) order
+C/C++ Program for Longest Palindromic Substring | Set 1
+C/C++ Program for An in-place algorithm for String Transformation
+C/C++ Program for Longest Palindromic Substring | Set 2
+C/C++ Program for Given a sequence of words, print all anagrams together | Set 1
+C/C++ Program for Given a sequence of words, print all anagrams together | Set 2
+C/C++ Program for Count words in a given string
+C/C++ Program for String matching where one string contains wildcard characters
+C/C++ Program for Write your own atoi()
+C/C++ Program for Dynamic Programming | Set 29 (Longest Common Substring)
+C/C++ Program for Remove “b” and “ac” from a given string
+C/C++ Program for Dynamic Programming | Set 33 (Find if a string is interleaved of two other strings)
+C/C++ Program for Find the first non-repeating character from a stream of characters
+C/C++ Program for Recursively remove all adjacent duplicates
+C/C++ Program for Rearrange a string so that all same characters become d distance away
+
+C program to find second most frequent character
